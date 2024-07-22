@@ -2,16 +2,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height for centering vertically */
-  width: 100vw; /* Full viewport width for centering horizontally */
+  height: auto;
+  width: 100vw; 
 }
 
 .auth_block {
   background: #40ba21;
-  height: 20rem;
+  height: auto; 
   width: 30rem;
   border-radius: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2em;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './AuthInputField.css';
 
 interface InputFieldProps {
   type?: string;
@@ -23,7 +24,6 @@ const AuthInputField: React.FC<InputFieldProps> = ({
   return (
     <div className={`input-field ${className}`}>
       {label && <label htmlFor={name}>{label}</label>}
-      <br />
       <input
         type={type}
         id={name}

@@ -1,6 +1,5 @@
 import React, { ReactNode, useState } from 'react';
 import AuthInputField from './AuthInputField/AuthInputField';
-
 import './Auth.css';
 
 interface Props {
